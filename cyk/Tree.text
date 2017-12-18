@@ -1,0 +1,55 @@
+.
+├── Makefile
+├── ParseMain.java
+├── bin
+├── data
+│   ├── dics.csv
+│   ├── gram.csv
+│   ├── gram_girl.csv
+│   └── gram_time.csv
+├── javadoc
+│   ├── ParseMain.html
+│   ├── allclasses-frame.html
+│   ├── allclasses-noframe.html
+│   ├── constant-values.html
+│   ├── deprecated-list.html
+│   ├── help-doc.html
+│   ├── index-all.html
+│   ├── index.html
+│   ├── overview-tree.html
+│   ├── package-frame.html
+│   ├── package-list
+│   ├── package-summary.html
+│   ├── package-tree.html
+│   ├── script.js
+│   ├── src
+│   │   ├── CompositeKey.html
+│   │   ├── CykBox.html
+│   │   ├── Parser.html
+│   │   ├── PartOfSpeech.html
+│   │   ├── PrintS.html
+│   │   ├── Rules.html
+│   │   ├── package-frame.html
+│   │   ├── package-summary.html
+│   │   └── package-tree.html
+│   └── stylesheet.css
+├── result
+├── src
+│   ├── CompositeKey.class
+│   ├── CompositeKey.java
+│   ├── CykBox.class
+│   ├── CykBox.java
+│   ├── Parser.class
+│   ├── Parser.java
+│   ├── PartOfSpeech.class
+│   ├── PartOfSpeech.java
+│   ├── PrintS.class
+│   ├── PrintS.java
+│   ├── Rules.class
+│   └── Rules.java
+└── text
+    ├── child.txt
+    ├── girl.txt
+    └── time.txt
+
+7 directories, 45 files
