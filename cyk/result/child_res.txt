@@ -1,1 +1,8 @@
+INPUT	|the child runs quickly to the large house
 
+(S(NP(DET"the")(NOUN"child"))(VP(VPa(VERB"runs")(ADV"quickly"))(NP(PREP"to")(NP(DET"the")(NP(ADJ"large")(NOUN"house"))))))
+
+Info	|sentence is accepted
+Info	|1 parse tree was found
+
+--------------------------------
