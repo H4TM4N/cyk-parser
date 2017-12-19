@@ -91,12 +91,12 @@ public class Parser{
 
 		int num = 0;
         for(int i=0; i<tmp.part.size(); i++){
-            if(tmp.part.get(i).equals("S")){
+            String p;
+			if((p=tmp.part.get(i)).equals("S")){
                 System.out.println(PrintS.printS(tmp,i));
 				num++;
 			}
-			//if(tmp.part.get(i).equals("VP") || tmp.part.get(i).equals("NP")){
-			if(tmp.part.get(i).equals("VP")){
+			else if((p=Rules.getRule(p))!=null && p.equals("S")){
 				System.out.println("(S"+PrintS.printS(tmp,i)+")");
 				num++;
 			}
