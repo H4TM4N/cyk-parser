@@ -25,7 +25,7 @@ S->NP+VP      : S,NP,VP
 S->NP         : S,NP,
 NP->DET+NOUN  : NP,DET,NOUN 
 ```
-Finally: Use 
+Finally: Run
 ```
 java ParseMain ./text/your-textfile-name ./data/your-rulefile.csv 
 ```
