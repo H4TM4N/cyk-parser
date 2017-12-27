@@ -8,6 +8,9 @@ Parser by CYK-algorithm.
 
 this parser judge whether a given English sentence complies with a given Rule or not.
 
+## Make Clone  
+Run `git clone https://github.com/H4TM4N/cyk-parser.git`  
+
 ## Usage
 to test : go cyk/ and use `make all` & `make run`  
 to parse your original text:  
