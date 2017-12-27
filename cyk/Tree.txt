@@ -2,6 +2,7 @@
 ├── Makefile
 ├── ParseMain.java
 ├── bin
+│   └──test.txt
 ├── data
 │   ├── dics.csv
 │   ├── gram.csv
