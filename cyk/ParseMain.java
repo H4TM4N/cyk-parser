@@ -16,7 +16,7 @@ import java.io.*;
 public class ParseMain{
     public static void main(String[] args){
         if(args.length != 2){
-            System.out.println("Error\t|no input files(text syntax)");
+            System.out.println("\u001b[00;41m[Error\t]\u001b[00m File Load Error: please Run with 'text & Syntax-Rule'");
             return ;
         }
         String s;
@@ -26,7 +26,7 @@ public class ParseMain{
             while((s = br.readLine()) != null){
                 Rules.setRuleMap(args[1]);
                 String[] text = s.split(" ");
-                System.out.println("INPUT\t|"+s+"\n");
+                System.out.println("[INPUT\t] "+s+"\n");
                 Parser.cykParse(text);
             }
         }catch(Exception e){
