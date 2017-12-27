@@ -2,7 +2,7 @@ CYK-Parser
 ====
 Parser by CYK-algorithm.
 
-[CYK-algorithm](https://en.wikipedia.org/wiki/CYK_algorithm)
+[wikipedia:CYK-algorithm](https://en.wikipedia.org/wiki/CYK_algorithm)
 
 ## Description
 
