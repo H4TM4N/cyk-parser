@@ -18,7 +18,7 @@ public class Parser{
 			Vector<String> part = PartOfSpeech.getPart(word[i]);
             //word was not found in ./data/dics.csv
 			if(part.size() == 0){
-                System.out.println("Error\t|"+"\""+word[i]+"\" was not found in dics.csv");
+                System.out.println("\u001b[00;41m[Error\t]\u001b[00m Not Found: "+"\""+word[i]+"\" in dics.csv");
                 return ;
             }
             String s;
@@ -83,30 +83,30 @@ public class Parser{
         int len = word.length-1;
         CykBox tmp = cyk[0][len];
         
-		if(!tmp.part.contains("S")){
-            System.out.println("Error\t|not accept");
-			System.out.println("\n-----------------------------");
-            return ;
-        }
-
 		int num = 0;
         for(int i=0; i<tmp.part.size(); i++){
-            String p;
-			if((p=tmp.part.get(i)).equals("S")){
+            if(tmp.part.get(i).equals("S")){
                 System.out.println(PrintS.printS(tmp,i));
 				num++;
 			}
-			else if((p=Rules.getRule(p))!=null && p.equals("S")){
+			//if(tmp.part.get(i).equals("VP") || tmp.part.get(i).equals("NP")){
+			if(tmp.part.get(i).equals("VP")){
 				System.out.println("(S"+PrintS.printS(tmp,i)+")");
 				num++;
 			}
 			
         }
+        if(num == 0){
+            System.out.println("\u001b[00;41m[Error\t]\u001b[00m Parsing Error: Sentence not accepted");
+			System.out.println("\n-----------------------------");
+            return ;
+        }
 
 		System.out.println("");
-		if(num > 0)
-			System.out.println("Info\t|sentence is accepted");
-		System.out.println("Info\t|"+num+" parse tree was found");
+		if(num > 0){
+			System.out.println("[Info\t] Parsing success: Sentence accepted");
+		    System.out.println("[Info\t] "+num+" parse tree was found");
+        }
 		System.out.println("");
 		System.out.println("--------------------------------");
     }
