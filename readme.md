@@ -6,14 +6,14 @@ Parser by CYK-algorithm.
 
 ## Description
 
-this parser judge whether a given English sentence complies with a given Rule or not.
+This parser judge whether a given English sentence complies with Rule or not.
 
 ## Make Clone  
 Run `git clone https://github.com/H4TM4N/cyk-parser.git`  
 
 ## Usage
-to test : go cyk/ and use `make all` & `make run`  
-to parse your original text:  
+For test : go cyk/ and use `make all` & `make run`  
+For parse your original text:  
 
 1st: Put your text-file in cyk/text/(***).txt
 
