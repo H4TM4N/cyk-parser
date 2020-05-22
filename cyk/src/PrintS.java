@@ -4,7 +4,6 @@ package src;
 *
 *<p>coded by recursion algorithm
 *
-*@author Ryo Hatakenaka
 */
 public class PrintS{
 	protected static String printS(CykBox s, int n){
