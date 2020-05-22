@@ -10,7 +10,6 @@ import java.util.*;
 *<p>| indexLeft : left source part number
 *<p>| indexRight : right source part number
 *
-*@author Ryo Hatakenaka
 */
 public class CykBox{
     public Vector<String> part;
