@@ -3,7 +3,6 @@ import java.util.*;
 /**
 *Parser is class for cyk-parsing and show result.
 *
-*@author Ryo Hatakenaka
 */
 public class Parser{
     public static void cykParse(String[] word){
