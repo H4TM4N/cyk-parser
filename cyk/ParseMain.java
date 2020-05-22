@@ -11,7 +11,6 @@ import java.io.*;
 *<p>args[1] : ruledata written with csv extension
 *<p>    e.g. S,NP,VP
 *
-*@author Ryo Hatakenaka
 */
 public class ParseMain{
     public static void main(String[] args){
