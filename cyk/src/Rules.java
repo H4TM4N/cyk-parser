@@ -7,7 +7,6 @@ import java.util.*;
 *<p>Usage:
 *	First: call setRuleMap(String) in main method
 *	Then : use getRule method if you want to check
-*</p>
 *
 */
 public class Rules{
