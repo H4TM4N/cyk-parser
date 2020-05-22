@@ -2,7 +2,7 @@ package src;
 /**
 *PrintS exists for only to get S-expression
 *
-*<p>coded by recursion algorithm
+*<p>recursion
 *
 */
 public class PrintS{
